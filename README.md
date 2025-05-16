@@ -11,30 +11,32 @@ Each prompt is located in a standalone Markdown file (*.md) in a subfolder of `p
 - Example output
 
 ## Structure
-dopes/
+```text
+chatgpt-prompts/
 ├── README.md
 ├── prompts/
 │   ├── en/
 │   │   ├── zero-shot/
-│   │       ├── 01_test.md
-│   │       ├── 02_test.md
+│   │   │   ├── 01_test.md
+│   │   │   ├── 02_test.md
 │   │   ├── few-shot/
-│   │       ├── 01_test.md
-│   │       ├── 02_test.md
+│   │   │   ├── 01_test.md
+│   │   │   ├── 02_test.md
 │   │   ├── prompt-chaining/
 │   │       ├── 01_test.md
 │   │       ├── 02_test.md
 │   ├── de/
 │   │   ├── zero-shot/
-│   │       ├── 01_test.md
-│   │       ├── 02_test.md
+│   │   │   ├── 01_test.md
+│   │   │   ├── 02_test.md
 │   │   ├── few-shot/
-│   │       ├── 01_test.md
-│   │       ├── 02_test.md
+│   │   │   ├── 01_test.md
+│   │   │   ├── 02_test.md
 │   │   ├── prompt-chaining/
 │   │       ├── 01_test.md
 │   │       ├── 02_test.md
 └── tags.json
+```
 
 ### tags.json 
 ... is an metadata file that helps describe and organize the prompts programmatically.
