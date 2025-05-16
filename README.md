@@ -10,7 +10,36 @@ Each prompt is located in a standalone Markdown file (*.md) in a subfolder of `p
 - Instructions
 - Example output
 
+## Structure
+dopes/
+├── README.md
+├── prompts/
+│   ├── en/
+│   │   ├── zero-shot/
+│   │       ├── 01_test.md
+│   │       ├── 02_test.md
+│   │   ├── few-shot/
+│   │       ├── 01_test.md
+│   │       ├── 02_test.md
+│   │   ├── prompt-chaining/
+│   │       ├── 01_test.md
+│   │       ├── 02_test.md
+│   ├── de/
+│   │   ├── zero-shot/
+│   │       ├── 01_test.md
+│   │       ├── 02_test.md
+│   │   ├── few-shot/
+│   │       ├── 01_test.md
+│   │       ├── 02_test.md
+│   │   ├── prompt-chaining/
+│   │       ├── 01_test.md
+│   │       ├── 02_test.md
+└── tags.json
+
+### tags.json 
+... is an metadata file that helps describe and organize the prompts programmatically.
+
 ## How to Use
-1. Open a file in the `prompts/` folder.
+1. Open a file in the `prompts/[language]` folder.
 2. Customize the variables inside the prompt.
 3. Paste it into ChatGPT or use via the OpenAI API.
