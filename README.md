@@ -1,0 +1,16 @@
+# DOPES
+**D**ifferent types **o**f **p**rompts (zero-shot, few-shot and prompt chaining) for **e**valuating text-based **s**olutions.
+
+A collection of reusable, well-documented prompts for ChatGPT, designed to evaluate text-based solutions. Depending on the language and the prompt design, a distinction is made between German and English as well as zero-shot, few-shot and prompt chaining.
+
+## Prompts
+Each prompt is located in a standalone Markdown file (*.md) in a subfolder of `prompts/[language]` and includes:
+- Purpose
+- Prompt template
+- Instructions
+- Example output
+
+## How to Use
+1. Open a file in the `prompts/` folder.
+2. Customize the variables inside the prompt.
+3. Paste it into ChatGPT or use via the OpenAI API.
