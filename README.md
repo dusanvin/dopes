@@ -11,6 +11,7 @@ Each prompt is located in a standalone Markdown file (*.md) in a subfolder of `p
 - Example output
 
 Prompts were structured using the following guidelines:
+- https://github.com/dair-ai/Prompt-Engineering-Guide
 - https://platform.openai.com/docs/guides/text?api-mode=responses#few-shot-learning
 - https://cookbook.openai.com/examples/gpt4-1_prompting_guide
 - https://www.reddit.com/r/ChatGPTPro/comments/1jzyf6k/openai_just_dropped_a_detailed_prompting_guide/
