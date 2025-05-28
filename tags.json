@@ -1,0 +1,58 @@
+[
+  {
+    "filename": "01_idea_generator.md",
+    "title": "Idea Generator",
+    "language": "en",
+    "type": "zero-shot",
+    "category": "creativity"
+  },
+  {
+    "filename": "02_email_rewriter.md",
+    "title": "Email Rewriter",
+    "language": "en",
+    "type": "zero-shot",
+    "category": "communication"
+  },
+  {
+    "filename": "03_bug_report_explainer.md",
+    "title": "Bug Report Explainer",
+    "language": "en",
+    "type": "few-shot",
+    "category": "development"
+  },
+  {
+    "filename": "04_customer_support.md",
+    "title": "Customer Support Assistant",
+    "language": "en",
+    "type": "few-shot",
+    "category": "support"
+  },
+  {
+    "filename": "05_sql_query_builder.md",
+    "title": "SQL Query Builder",
+    "language": "en",
+    "type": "prompt-chaining",
+    "category": "development"
+  },
+  {
+    "filename": "06_resume_editor.md",
+    "title": "Resume Editor",
+    "language": "en",
+    "type": "prompt-chaining",
+    "category": "career"
+  },
+  {
+    "filename": "07_product_namer.md",
+    "title": "Product Namer",
+    "language": "en",
+    "type": "prompt-chaining",
+    "category": "branding"
+  },
+  {
+    "filename": "08_story_outliner.md",
+    "title": "Story Outliner",
+    "language": "en",
+    "type": "prompt-chaining",
+    "category": "writing"
+  }
+]
