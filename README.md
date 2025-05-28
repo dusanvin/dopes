@@ -1,7 +1,7 @@
 # DoPES
-**D**ifferent Types **o**f **P**rompts (zero-shot, few-shot and prompt chaining) for **E**valuating Text-Based **S**olutions.
+**D**ifferent Types **o**f **P**rompts (Zero-shot Learning, Few-shot Learning and Chain-of-Thought prompting) for **E**valuating Text-Based **S**olutions.
 
-A collection of reusable, well-documented prompts for ChatGPT, designed to evaluate text-based solutions. Depending on the language and the prompt design, a distinction is made between German and English as well as zero-shot, few-shot and prompt chaining.
+A collection of reusable, well-documented prompts for ChatGPT, designed to evaluate text-based solutions. Depending on the language and the prompt design, a distinction is made between German and English as well as Zero-shot learning, Few-shot Learning and Chain-of-Thougt(CoT) prompting.
 
 ## Prompts
 Each prompt is located in a standalone Markdown file (*.md) in a subfolder of `prompts/[language]` and includes:
@@ -18,7 +18,7 @@ Prompts were structured using the following guidelines:
 
 ## Structure
 ```text
-chatgpt-prompts/
+dopes/
 ├── README.md
 ├── prompts/
 │   ├── en/
@@ -28,7 +28,7 @@ chatgpt-prompts/
 │   │   ├── few-shot/
 │   │   │   ├── 01_test.md
 │   │   │   ├── 02_test.md
-│   │   ├── prompt-chaining/
+│   │   ├── chain-of-thought/
 │   │       ├── 01_test.md
 │   │       ├── 02_test.md
 │   ├── de/
@@ -38,7 +38,7 @@ chatgpt-prompts/
 │   │   ├── few-shot/
 │   │   │   ├── 01_test.md
 │   │   │   ├── 02_test.md
-│   │   ├── prompt-chaining/
+│   │   ├── chain-of-thought/
 │   │       ├── 01_test.md
 │   │       ├── 02_test.md
 └── tags.json
