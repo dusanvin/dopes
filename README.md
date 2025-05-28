@@ -1,5 +1,5 @@
-# DOPES
-**D**ifferent Types **o**f **P**rompts (zero-shot, few-shot and prompt chaining) for **E**valuating text-based **S**olutions.
+# DoPES
+**D**ifferent Types **o**f **P**rompts (zero-shot, few-shot and prompt chaining) for **E**valuating Text-Based **S**olutions.
 
 A collection of reusable, well-documented prompts for ChatGPT, designed to evaluate text-based solutions. Depending on the language and the prompt design, a distinction is made between German and English as well as zero-shot, few-shot and prompt chaining.
 
