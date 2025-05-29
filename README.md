@@ -86,7 +86,7 @@ Die Prompts orientien sich an folgenden Richtlinien:
 <details>
   <summary>Aufklappen zum Ansehen</summary>
 ### .env.example
-... ist die Beispiel-```text.env```, die den API-Key für ChatGPT enthalten sollte.
+... ist die Beispiel- ```.env```, die den API-Key für ChatGPT enthalten sollte.
 
 ### run_prompts.py
 ... is the file which loads your prompts as well as your grid, sends them via the API to ChatGPT and saves the generated response to your system.
