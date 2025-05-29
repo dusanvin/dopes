@@ -1,0 +1,7 @@
+.env
+data/~$data.xlsx
+manual/manual.xlsx
+manual/~$manual.xlsx
+responses/zero-shot/antwort_1.md
+responses/zero-shot/antwort_2.md
+resultate.xlsx
