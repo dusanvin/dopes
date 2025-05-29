@@ -1,6 +1,77 @@
 # DoPES
 **D**ifferent Types **o**f **P**rompts (Zero-shot Learning, Few-shot Learning and Chain-of-Thought prompting) for **E**valuating Text-Based **S**olutions.
 
+## Deutsch
+Eine Sammlung von wiederverwendbaren, gut dokumentierten Prompts für ChatGPT, um textbasierte Lösungen zu evaluieren. Je nach Sprache und Prompt-Design wird zwischen Deutsch und Englisch sowie 
+- Lernen ohne Beispiele (engl., Zero-shot learning, ZSL)
+- Lernen mit wenigen Beispielen (engl., Few-shot Learning, FSL)
+- ZSL mit strukturiertem Denken (engl., Chain-of-Thougt, CoT) und
+- FSL with CoT
+unterschieden.
+
+<details>
+  <summary>Click me</summary>
+  
+  ### Heading
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+  ### Some Javascript
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+</details>
+
+### Struktur
+```text
+dopes/
+├── README.md
+├── .env.example
+├── run_prompts.py
+├── data/
+│   ├── data.xlsx
+├── manuals/
+│   ├── zero-shot.pdf
+│   ├── few-shot.pdf
+│   ├── chain-of-thought.pdf
+├── prompts/
+│   ├── en/
+│   │   ├── zero-shot/
+│   │   │   ├── 01_test.md
+│   │   │   ├── 02_test.md
+│   │   ├── few-shot/
+│   │   │   ├── 01_test.md
+│   │   │   ├── 02_test.md
+│   │   ├── chain-of-thought/
+│   │       ├── 01_test.md
+│   │       ├── 02_test.md
+│   ├── de/
+│   │   ├── zero-shot/
+│   │   │   ├── (1)zsl+du.md
+│   │   │   ├── 02_test.md
+│   │   ├── few-shot/
+│   │   │   ├── 01_test.md
+│   │   │   ├── 02_test.md
+│   │   ├── chain-of-thought/
+│   │       ├── 01_test.md
+│   │       ├── 02_test.md
+├── responses/
+│   ├── zero-shot/
+│   │   ├── 1.md
+│   │   ├── 2.md
+│   ├── few-shot/
+│   │   ├── 1.md
+│   │   ├── 2.md
+│   ├── chain-of-thought/
+│   │   ├── 1.md
+│   │   ├── 2.md
+└── tags.json
+```
+
 ## English
 A collection of reusable, well-documented prompts for ChatGPT, designed to evaluate text-based solutions. Depending on the language and the prompt design, a distinction is made between German and English as well as 
 - Zero-shot learning (ZSL)
