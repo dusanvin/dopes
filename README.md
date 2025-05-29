@@ -82,6 +82,25 @@ Die Prompts orientien sich an folgenden Richtlinien:
   
 </details>
 
+## Dateien
+<details>
+  <summary>Aufklappen zum Ansehen</summary>
+### .env.example
+... ist die Beispiel-```text.env```, die den API-Key für ChatGPT enthalten sollte.
+
+### run_prompts.py
+... is the file which loads your prompts as well as your grid, sends them via the API to ChatGPT and saves the generated response to your system.
+
+### (1)zsl+du.md
+... is a zero-shot prompt for evaluating text-based solutions.
+
+### data/data.xlsx
+... is the file which contains the text-based solutions to be evaluated.
+
+### tags.json 
+... is an metadata file that helps describe and organize the prompts programmatically.
+
+
 ## English
 A collection of reusable, well-documented prompts for ChatGPT, designed to evaluate text-based solutions. Depending on the language and the prompt design, a distinction is made between German and English as well as 
 - Zero-shot learning (ZSL)
