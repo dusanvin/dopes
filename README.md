@@ -89,16 +89,17 @@ Die Prompts orientien sich an folgenden Richtlinien:
 ... ist die Beispiel- ```.env```, die den API-Key für ChatGPT enthalten sollte.
 
 ### run_prompts.py
-... is the file which loads your prompts as well as your grid, sends them via the API to ChatGPT and saves the generated response to your system.
+... lädt die Prompts, die Texte und das Bewertungsraster. Sie sendet alles an ChatGPT und speichert die generierte Antwort.
 
 ### (1)zsl+du.md
-... is a zero-shot prompt for evaluating text-based solutions.
+... ist ein ZSL-Prompt zur Bewertung von textbasierten Aufgaben.
 
 ### data/data.xlsx
-... is the file which contains the text-based solutions to be evaluated.
+... enthält die zu bewertenden Texte.
 
 ### tags.json 
-... is an metadata file that helps describe and organize the prompts programmatically.
+... enthält die Metadaten, die die Prompts und Dateien beschreiben.
+</details>
 
 
 ## English
