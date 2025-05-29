@@ -102,10 +102,11 @@ Die Prompts orientien sich an folgenden Richtlinien:
 </details>
 
 ## Verwendung
-1. Change the API-Key in the ```.env.example.``` Rename the file to ```.env```
-2. Convert your grid for evaluating qualitative data (depending on your shot) to "manual.pdf" (Base64-encoded form). Place it under manuals/
-3. Customize your prompt in prompts/(1)zsl+du.md
-4. Move to your project folder. Run the program via: ```python run_prompts.py```
+1. Ändere den API-Key in der ```.env.example```. Benenne die Datei in ```.env``` um.
+2. Konvertiere das Bewertungsraster zur Bewertung von textbasierten Antworten (in Abhängigkeit deines Prompts) zu "manual.pdf" (Base64-kodiert). Füge es unter ```manuals/``` ein.
+3. Passe deinen Prompt unter ```prompts/(1)zsl+du.md``` an.
+4. Gehe in deinen Projektordner. Starte das Programm mit folgendem Aufruf: ```python run_prompts.py```
+5. Happy Scripting!
 
 ## English
 A collection of reusable, well-documented prompts for ChatGPT, designed to evaluate text-based solutions. Depending on the language and the prompt design, a distinction is made between German and English as well as 
