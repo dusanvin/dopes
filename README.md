@@ -7,6 +7,7 @@ Eine Sammlung von wiederverwendbaren, gut dokumentierten Prompts für ChatGPT, u
 - Lernen mit wenigen Beispielen (engl., Few-shot Learning, FSL)
 - ZSL mit strukturiertem Denken (engl., Chain-of-Thougt, CoT) und
 - FSL with CoT
+
 unterschieden.
 
 ### Projektstruktur
