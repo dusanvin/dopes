@@ -114,7 +114,18 @@ A collection of reusable, well-documented prompts for ChatGPT, designed to evalu
 - ZSL with Chain-of-Thougt(CoT) prompting and
 - FSL with CoT prompting
 
+## How to Use
+1. Change the API-Key in the .env.example. Rename the file to .env
+2. Convert your grid for evaluating qualitative data (depending on your shot) to "manual.pdf" (Base64-encoded form). Place it under manuals/
+3. Customize your prompt in prompts/(1)zsl+du.md
+4. Move to your project folder. Run the program via: ```python run_prompts.py```
+5. Happy scripting!
+
 ### Structure
+<details>
+  <summary>Click to show content</summary>
+    <br>
+
 ```text
 dopes/
 ├── README.md
@@ -160,7 +171,12 @@ dopes/
 └── tags.json
 ```
 
+</details>
+
 ### Prompts
+<details>
+  <summary>Click to show content</summary>
+  <br>
 Each prompt is located in a standalone Markdown file (*.md) in a subfolder of `prompts/[language]` and includes:
 - Purpose
 - Prompt template
@@ -173,6 +189,11 @@ Prompts were structured using the following guidelines:
 - https://cookbook.openai.com/examples/gpt4-1_prompting_guide
 - https://www.reddit.com/r/ChatGPTPro/comments/1jzyf6k/openai_just_dropped_a_detailed_prompting_guide/
 
+</details>
+
+## Files
+<details>
+    <summary>Click to show content</summary>
 ### .env.example
 ... is the example .env which should containt your API-key for ChatGPT.
 
@@ -188,8 +209,4 @@ Prompts were structured using the following guidelines:
 ### tags.json 
 ... is an metadata file that helps describe and organize the prompts programmatically.
 
-## How to Use
-1. Change the API-Key in the .env.example. Rename the file to .env
-2. Convert your grid for evaluating qualitative data (depending on your shot) to "manual.pdf" (Base64-encoded form). Place it under manuals/
-3. Customize your prompt in prompts/(1)zsl+du.md
-4. Move to your project folder. Run the program via: ```python run_prompts.py```
+</details>
