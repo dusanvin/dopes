@@ -86,7 +86,7 @@ Die Prompts orientien sich an folgenden Richtlinien:
 <details>
   <summary>Aufklappen zum Ansehen</summary>
 ### .env.example
-... ist die Beispiel- ```.env```, die den API-Key für ChatGPT enthalten sollte.
+... sollte den API-Key für ChatGPT enthalten.
 
 ### run_prompts.py
 ... lädt die Prompts, die Texte und das Bewertungsraster. Sie sendet alles an ChatGPT und speichert die generierte Antwort.
@@ -101,6 +101,11 @@ Die Prompts orientien sich an folgenden Richtlinien:
 ... enthält die Metadaten, die die Prompts und Dateien beschreiben.
 </details>
 
+## Verwendung
+1. Change the API-Key in the ```.env.example.``` Rename the file to ```.env```
+2. Convert your grid for evaluating qualitative data (depending on your shot) to "manual.pdf" (Base64-encoded form). Place it under manuals/
+3. Customize your prompt in prompts/(1)zsl+du.md
+4. Move to your project folder. Run the program via: ```python run_prompts.py```
 
 ## English
 A collection of reusable, well-documented prompts for ChatGPT, designed to evaluate text-based solutions. Depending on the language and the prompt design, a distinction is made between German and English as well as 
