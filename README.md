@@ -12,6 +12,7 @@ unterschieden.
 ### Projektstruktur
 <details>
   <summary>Aufklappen zum Ansehen</summary>
+  
 ```text
 dopes/
 ├── README.md
