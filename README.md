@@ -10,9 +10,9 @@ Eine Sammlung von wiederverwendbaren, gut dokumentierten Prompts für ChatGPT, u
 unterschieden.
 
 <details>
-  <summary>Programmstruktur</summary>
+  <summary>### Struktur</summary>
   
-### Struktur
+
 ```text
 dopes/
 ├── README.md
