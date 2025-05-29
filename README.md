@@ -71,6 +71,12 @@ Jeder Prompt befindet sich in einer eigenständigen Markdown-Datei (*.md) in ein
 - Instruktionen
 - Erwartetes Format
 - Wichtige Zusätze
+
+Die Prompts orientien sich an folgenden Richtlinien:
+- https://github.com/dair-ai/Prompt-Engineering-Guide
+- https://platform.openai.com/docs/guides/text?api-mode=responses#few-shot-learning
+- https://cookbook.openai.com/examples/gpt4-1_prompting_guide
+- https://www.reddit.com/r/ChatGPTPro/comments/1jzyf6k/openai_just_dropped_a_detailed_prompting_guide/
   
 </details>
 
