@@ -9,10 +9,9 @@ Eine Sammlung von wiederverwendbaren, gut dokumentierten Prompts für ChatGPT, u
 - FSL with CoT
 unterschieden.
 
+### Projektstruktur
 <details>
-  <summary>### Struktur</summary>
-  
-
+  <summary>Aufklappen zum Ansehen</summary>
 ```text
 dopes/
 ├── README.md
