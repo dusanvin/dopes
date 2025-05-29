@@ -10,7 +10,7 @@ A collection of reusable, well-documented prompts for ChatGPT, designed to evalu
 
 ## How to Use
 1. Change the API-Key in the ```.env.example```. Rename the file to ```.env```
-2. Convert your grid for evaluating qualitative data (depending on your shot) to "manual.pdf" (Base64-encoded form). Place it under ```manuals/```
+2. Convert your grid for evaluating qualitative data (depending on your shot) to ```manual.pdf``` (Base64-encoded form). Place it under ```manuals/```
 3. Customize your prompt in ```prompts/(1)zsl+du.md```
 4. Place your ```data.xlsx``` which should be evaluated into ```data/```
 5. Move to your project folder. Run the program via: ```python run_prompts.py```
@@ -119,9 +119,10 @@ unterschieden.
 
 ### Verwendung
 1. Ändere den API-Key in der ```.env.example```. Benenne die Datei in ```.env``` um.
-2. Konvertiere das Bewertungsraster zur Bewertung von textbasierten Antworten (in Abhängigkeit deines Prompts) zu "manual.pdf" (Base64-kodiert). Füge es unter ```manuals/``` ein.
+2. Konvertiere das Bewertungsraster zur Bewertung von textbasierten Antworten (in Abhängigkeit deines Prompts) zu ```manual.pdf``` (Base64-kodiert). Füge es unter ```manuals/``` ein.
 3. Passe deinen Prompt unter ```prompts/(1)zsl+du.md``` an.
-4. Gehe in deinen Projektordner. Starte das Programm mit folgendem Aufruf: ```python run_prompts.py```
+4. Füge deine ```data.xlsx``` die analysiert werden soll in ```data/``` ein.
+5. Gehe in deinen Projektordner. Starte das Programm mit folgendem Aufruf: ```python run_prompts.py```
 
 ### Projektstruktur
 <details>
