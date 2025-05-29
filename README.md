@@ -1,5 +1,5 @@
 # DoPES
-**D**ifferent Types **o**f **P**rompts (Zero-shot Learning, Few-shot Learning and Chain-of-Thought prompting) for **E**valuating Text-Based **S**olutions.
+**D**ifferent Types **o**f **P**rompts (Zero-shot Learning, Few-shot Learning and Chain-of-Thought prompting) for Automated **E**ssay **S**coring.
 
 ## English
 A collection of reusable, well-documented prompts for ChatGPT, designed to evaluate text-based solutions. Depending on the language and the prompt design, a distinction is made between German and English as well as 
@@ -7,6 +7,8 @@ A collection of reusable, well-documented prompts for ChatGPT, designed to evalu
 - Few-shot Learning (FSL)
 - ZSL with Chain-of-Thougt(CoT) prompting and
 - FSL with CoT prompting
+
+The project evaluates essays or texts with a grid and a given prompt automatically.
 
 ## How to Use
 1. Change the API-Key in the ```.env.example```. Rename the file to ```.env```
