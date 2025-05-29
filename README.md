@@ -12,8 +12,9 @@ A collection of reusable, well-documented prompts for ChatGPT, designed to evalu
 1. Change the API-Key in the ```.env.example```. Rename the file to ```.env```
 2. Convert your grid for evaluating qualitative data (depending on your shot) to "manual.pdf" (Base64-encoded form). Place it under ```manuals/```
 3. Customize your prompt in ```prompts/(1)zsl+du.md```
-4. Move to your project folder. Run the program via: ```python run_prompts.py```
-5. Happy scripting!
+4. Place your ```data.xlsx``` which should be evaluated into ```data/```
+5. Move to your project folder. Run the program via: ```python run_prompts.py```
+6. Happy scripting!
 
 ### Structure
 <details>
