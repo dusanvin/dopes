@@ -60,6 +60,18 @@ dopes/
 ```
 </details>
 
+### Prompts
+<details>
+  <summary>Aufklappen zum Ansehen</summary>
+  Jeder Prompt befindet sich in einer eigenständigen Markdown-Datei (*.md) in einem Unterordner von `prompts/[Sprache]` und enthält:
+- Identität
+- Zu bewertender Text
+- Beschreibung
+- Instruktionen
+- Erwartetes Format
+- Wichtige Zusätze
+</details>
+
 ## English
 A collection of reusable, well-documented prompts for ChatGPT, designed to evaluate text-based solutions. Depending on the language and the prompt design, a distinction is made between German and English as well as 
 - Zero-shot learning (ZSL)
