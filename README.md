@@ -10,6 +10,12 @@ Eine Sammlung von wiederverwendbaren, gut dokumentierten Prompts für ChatGPT, u
 
 unterschieden.
 
+### Verwendung
+1. Ändere den API-Key in der ```.env.example```. Benenne die Datei in ```.env``` um.
+2. Konvertiere das Bewertungsraster zur Bewertung von textbasierten Antworten (in Abhängigkeit deines Prompts) zu "manual.pdf" (Base64-kodiert). Füge es unter ```manuals/``` ein.
+3. Passe deinen Prompt unter ```prompts/(1)zsl+du.md``` an.
+4. Gehe in deinen Projektordner. Starte das Programm mit folgendem Aufruf: ```python run_prompts.py```
+
 ### Projektstruktur
 <details>
   <summary>Aufklappen zum Ansehen</summary>
@@ -100,13 +106,6 @@ Die Prompts orientien sich an folgenden Richtlinien:
 ### tags.json 
 ... enthält die Metadaten, die die Prompts und Dateien beschreiben.
 </details>
-
-## Verwendung
-1. Ändere den API-Key in der ```.env.example```. Benenne die Datei in ```.env``` um.
-2. Konvertiere das Bewertungsraster zur Bewertung von textbasierten Antworten (in Abhängigkeit deines Prompts) zu "manual.pdf" (Base64-kodiert). Füge es unter ```manuals/``` ein.
-3. Passe deinen Prompt unter ```prompts/(1)zsl+du.md``` an.
-4. Gehe in deinen Projektordner. Starte das Programm mit folgendem Aufruf: ```python run_prompts.py```
-5. Happy Scripting!
 
 ## English
 A collection of reusable, well-documented prompts for ChatGPT, designed to evaluate text-based solutions. Depending on the language and the prompt design, a distinction is made between German and English as well as 
