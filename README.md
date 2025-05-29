@@ -13,6 +13,7 @@ unterschieden.
 ### Projektstruktur
 <details>
   <summary>Aufklappen zum Ansehen</summary>
+    <br>
   
 ```text
 dopes/
@@ -63,7 +64,7 @@ dopes/
 ### Prompts
 <details>
   <summary>Aufklappen zum Ansehen</summary>
-
+  <br>
   Jeder Prompt befindet sich in einer eigenständigen Markdown-Datei (*.md) in einem Unterordner von `prompts/[Sprache]` und enthält:
   
 - Identität
