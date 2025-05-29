@@ -72,6 +72,7 @@ dopes/
   <summary>Click to show content</summary>
   <br>
 Each prompt is located in a standalone Markdown file (*.md) in a subfolder of `prompts/[language]` and includes:
+
 - Purpose
 - Prompt template
 - Instructions
