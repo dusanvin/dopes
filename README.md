@@ -121,7 +121,7 @@ unterschieden.
 1. Ändere den API-Key in der ```.env.example```. Benenne die Datei in ```.env``` um.
 2. Konvertiere das Bewertungsraster zur Bewertung von textbasierten Antworten (in Abhängigkeit deines Prompts) zu ```manual.pdf``` (Base64-kodiert). Füge es unter ```manuals/``` ein.
 3. Passe deinen Prompt unter ```prompts/(1)zsl+du.md``` an.
-4. Füge deine ```data.xlsx``` die analysiert werden soll in ```data/``` ein.
+4. Füge deine ```data.xlsx``` (mit den zu bewertenden textbasierten Antworten) in ```data/``` ein.
 5. Gehe in deinen Projektordner. Starte das Programm mit folgendem Aufruf: ```python run_prompts.py```
 
 ### Projektstruktur
