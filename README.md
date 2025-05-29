@@ -63,13 +63,14 @@ dopes/
 ### Prompts
 <details>
   <summary>Aufklappen zum Ansehen</summary>
-  Jeder Prompt befindet sich in einer eigenständigen Markdown-Datei (*.md) in einem Unterordner von `prompts/[Sprache]` und enthält:
+Jeder Prompt befindet sich in einer eigenständigen Markdown-Datei (*.md) in einem Unterordner von `prompts/[Sprache]` und enthält:
 - Identität
 - Zu bewertender Text
 - Beschreibung
 - Instruktionen
 - Erwartetes Format
 - Wichtige Zusätze
+  
 </details>
 
 ## English
