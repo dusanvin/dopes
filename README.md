@@ -10,22 +10,8 @@ Eine Sammlung von wiederverwendbaren, gut dokumentierten Prompts für ChatGPT, u
 unterschieden.
 
 <details>
-  <summary>Click me</summary>
+  <summary>Programmstruktur</summary>
   
-  ### Heading
-  1. Foo
-  2. Bar
-     * Baz
-     * Qux
-
-  ### Some Javascript
-  ```js
-  function logSomething(something) {
-    console.log('Something', something);
-  }
-  ```
-</details>
-
 ### Struktur
 ```text
 dopes/
@@ -71,6 +57,7 @@ dopes/
 │   │   ├── 2.md
 └── tags.json
 ```
+</details>
 
 ## English
 A collection of reusable, well-documented prompts for ChatGPT, designed to evaluate text-based solutions. Depending on the language and the prompt design, a distinction is made between German and English as well as 
