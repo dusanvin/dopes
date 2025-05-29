@@ -88,6 +88,8 @@ Prompts were structured using the following guidelines:
 ### Files
 <details>
     <summary>Click to show content</summary>
+  <br>
+  
 #### .env.example
 ... is the example .env which should containt your API-key for ChatGPT.
 
@@ -195,6 +197,8 @@ Die Prompts orientien sich an folgenden Richtlinien:
 ### Dateien
 <details>
   <summary>Aufklappen zum Ansehen</summary>
+  <br>
+  
 #### .env.example
 ... sollte den API-Key für ChatGPT enthalten.
 
