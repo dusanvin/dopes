@@ -8,7 +8,7 @@ A collection of reusable, well-documented prompts for ChatGPT, designed to evalu
 - ZSL with Chain-of-Thougt(CoT) prompting and
 - FSL with CoT prompting
 
-The project evaluates essays or texts with a grid and a given prompt automatically.
+The project evaluates essays or texts with a grid and a given prompt automatically by by sending a call via a ChatGPT-API. 
 
 ![](https://github.com/dusanvin/dopes/blob/main/image.png)
 
