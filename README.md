@@ -10,6 +10,8 @@ A collection of reusable, well-documented prompts for ChatGPT, designed to evalu
 
 The project evaluates essays or texts with a grid and a given prompt automatically.
 
+![](https://github.com/dusanvin/dopes/blob/main/image.png)
+
 ## How to Use
 1. Change the API-Key in the ```.env.example```. Rename the file to ```.env```
 2. Convert your grid for evaluating qualitative data (depending on your shot) to ```manual.pdf``` (Base64-encoded form). Place it under ```manuals/```
