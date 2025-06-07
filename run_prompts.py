@@ -62,12 +62,12 @@ for idx, row in data_df.iterrows():
         antwort = response.output_text
 
         # Ausgabe anzeigen & speichern
-        print(f"\n✅ GPT-Antwort für Zeile {idx+1}:\n{'-'*60}\n{antwort}\n{'-'*60}\n")
+        print(f"\nGPT-Antwort für Zeile {idx+1}:\n{'-'*60}\n{antwort}\n{'-'*60}\n")
         output_file = OUTPUT_DIR / f"{idx+1}.md"
         with open(output_file, "w", encoding="utf-8") as f:
             f.write(antwort)
 
     except Exception as e:
-        print(f"❌ Fehler bei Zeile {idx+1}: {e}")
+        print(f"Fehler bei Zeile {idx+1}: {e}")
 
     time.sleep(0.01)  # für Fortschrittsanzeige
