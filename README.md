@@ -113,7 +113,7 @@ Prompts were structured using the following guidelines:
 </details>
 
 ## Deutsch
-Eine Sammlung von wiederverwendbaren, gut dokumentierten Prompts für ChatGPT, um textbasierte Lösungen zu evaluieren. Je nach Sprache und Prompt-Design wird zwischen Deutsch und Englisch sowie 
+Ein Python-Skript, um textbasierte Lösungen mit verschiedenen Arten von Prompts automatisiert zu evaluieren. Je nach Sprache und Prompt-Design wird zwischen Deutsch und Englisch sowie 
 - Lernen ohne Beispiele (engl., Zero-shot learning, ZSL)
 - Lernen mit wenigen Beispielen (engl., Few-shot Learning, FSL)
 - ZSL mit strukturiertem Denken (engl., Chain-of-Thougt, CoT) und
