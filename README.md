@@ -8,7 +8,7 @@ A collection of reusable, well-documented prompts for ChatGPT, designed to evalu
 - ZSL with Chain-of-Thougt(CoT) prompting and
 - FSL with CoT prompting
 
-The project **evaluates essays or texts** with a **grid** and a given **prompt** automatically by by sending a call via a ChatGPT-API. 
+The project DoPES **evaluates essays or texts** with a **grid** and a given **prompt** automatically by sending a call via a ChatGPT-API. 
 
 ![](https://github.com/dusanvin/dopes/blob/main/image.png)
 
@@ -17,8 +17,9 @@ The project **evaluates essays or texts** with a **grid** and a given **prompt**
 2. Convert your grid for evaluating qualitative data (depending on your shot) to ```manual.pdf``` (Base64-encoded form). Place it under ```manuals/```
 3. Customize your prompt in ```prompts/(1)zsl+du.md```
 4. Place your ```data.xlsx``` which should be evaluated into ```data/```
-5. Move to your project folder. Run the program via: ```python run_prompts.py```
-6. Happy scripting!
+5. Move to your project folder. Install the needed modules via pip: ```pip install python-dotenv openai pandas tqdm openpyxl```
+6. Run the program via: ```python run_prompts.py```
+7. Happy scripting!
 
 ### Structure
 <details>
