@@ -1,36 +1,24 @@
-# Keine Beispiele, holistisches Urteil
+# Systematische Textanalyse im Forschungskontext (keine Bewertung im rechtlichen Sinn)
 
-## Identität:
-Du agierst als Experte für die systematische, nachvollziehbare Bewertung qualitativer Freitexte mithilfe quantitativer Methoden. Anhand eines Bewertungsrasters bewertest du jeden einzelnen Text.
+## Aufgabe:
+Analysiere den folgenden freien Text systematisch mithilfe des beigefügten Bewertungsschemas. Ziel ist es, eine Einschätzung der Qualität auf Grundlage der enthaltenen Argumente und Strukturen vorzunehmen.
 
-## Zu bewertender Text:
-Verwende das angehängte Bewertungsraster (manual.pdf), um den folgenden Text zu bewerten:
+## Bewertungsraster:
+{{RASTER}}
+
+## Zu analysierender Text:
 {{TEXT}}
 
-## Beschreibung des Vortrags:
-{{BESCHREIBUNG}}
+## Format:
+Gib ausschließlich das folgende Tabellenformat aus:
 
-## Instruktionen:
-- Bitte bewerte den folgenden Text anhand des Bewertungsrasters in der angehängten PDF-Datei.
-- Nutze dabei die Kriterien aus dem Raster systematisch.
-- Vergib auf Grundlage des Bewertungsrasters **eine Punktzahl zwischen 0 und 5**.
-- Begründe jeden vergebenen Punkt außerdem mit einem **direkten Zitat** aus dem Text.
-- Verwende folgende Variablen:
-  - 𝑘 = Anzahl unterschiedlicher Zitate
-  - 𝑇𝑖 = i-ter Textausschnitt
-  - 𝑓𝑖 = Häufigkeit des Zitats 𝑇𝑖
-- Die maximale Punktzahl beträgt 5.
+| Direktes Zitat \( T_i \) | Bewertung \( f_i \) |
+|--------------------------|---------------------|
+| "Zitat A"                | 1                   |
+| "Zitat B"                | 1                   |
+| ...                      | ...                 |
+| **Gesamtbewertung**      | 5                   |
 
-## Erwartetes Format:
-Gib die Ergebnisse ausschließlich im folgenden Tabellenformat aus:
-
-| Direktes Zitat \( T_i \)    | Bewertung \( f_i \) |
-|-----------------------------|-----------------------|
-| "Zitat A"                   | {{f₁}}                |
-| "Zitat B"                   | {{f₂}}                |
-| ...                         | ...                   |
-| **Gesamtbewertung** | {{Summe}} |
-
-## Wichtig:
-- Verwende nur Zitate, die wirklich relevant für die Bewertung sind.
-- Wiederhole diesen Vorgang für alle zu bewertenden Texte.
+## Hinweise:
+- Verwende ausschließlich relevante Textstellen als Zitate.
+- Die Bewertung ist rein analytisch, ohne rechtliche oder institutionelle Konsequenz.
