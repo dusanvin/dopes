@@ -1,0 +1,9 @@
+{
+  "select_language": "Please select your language:",
+  "language_prompt": "Enter 'de' for German or 'en' for English:",
+  "invalid_language": "Invalid language, defaulting to German",
+  "select_prompt": "Select a prompt:",
+  "select_manual": "Select a manual:",
+  "enter_number": "Enter number (1-{max}):",
+  "invalid_input": "Invalid input. Try again."
+}
