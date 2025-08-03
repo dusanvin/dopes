@@ -34,7 +34,7 @@ def choose_prompt_and_manual():
     clear_console()
 
     # Sprache wählen – erster Satz auf Englisch
-    print("Please select your language:")
+    print("Please select your language/ Bitte wählen Sie Ihre Sprache aus:")
     language = input("Enter 'de' for German or 'en' for English: ").strip().lower()
     if language not in {"de", "en"}:
         print("Invalid language, defaulting to German")
