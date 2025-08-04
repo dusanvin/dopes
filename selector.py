@@ -43,7 +43,7 @@ def choose_prompt_and_manual():
     lang_strings = load_language_strings(language)
 
     # Prompt wählen
-    prompt_dir = Path(f"prompts/{language}/zero-shot")
+    prompt_dir = Path(f"prompts/{language}")
     prompts = list_files_in_directory(prompt_dir)
     if not prompts:
         raise FileNotFoundError(f"No prompt files found in {prompt_dir}")

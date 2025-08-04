@@ -8,7 +8,7 @@ def send_prompt_with_retry(client, prompt_text, idx, max_retries=5):
     while refusal_count < max_retries:
         try:
             response = client.responses.create(
-                model="gpt-4o",
+                model="gpt-4o-2024-05-13",
                 input=[{"role": "user", "content": [{"type": "input_text", "text": prompt_text}]}]
             )
 
@@ -24,21 +24,21 @@ def send_prompt_with_retry(client, prompt_text, idx, max_retries=5):
 
                 else:
                     antwort = response.output_text.strip()
-                    print(f"--- Antwort von ChatGPT für Zeile {idx} ---")
+                    print(f"\n--- Antwort von ChatGPT für Zeile {idx} ---")
                     print(antwort)
                     return antwort, False
 
             else:
                 antwort = response.output_text.strip()
-                print(f"--- Antwort (Fallback) von ChatGPT für Zeile {idx} ---")
+                print(f"\n--- Antwort (Fallback) von ChatGPT für Zeile {idx} ---")
                 print(antwort)
                 return antwort, False
 
         except Exception as e:
             refusal_count += 1
-            print(f"--- Fehler bei Zeile {idx} (Versuch {refusal_count}) ---")
+            print(f"\n--- Fehler bei Zeile {idx} (Versuch {refusal_count}) ---")
             print(str(e))
             time.sleep(2)
 
-    print(f"Abbruch nach {max_retries} Verweigerungen bei Zeile {idx}")
+    print(f"\nAbbruch nach {max_retries} Verweigerungen bei Zeile {idx}")
     return "[Refused after 5 attempts]", True
