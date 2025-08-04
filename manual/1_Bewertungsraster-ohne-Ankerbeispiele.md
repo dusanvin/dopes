@@ -16,7 +16,7 @@ Begründen Sie Ihr Vorgehen, indem Sie erklären, warum sich die ausgewählte L
 
 ## Wenn Bezug zur Empirie zum ICAP-Modell besteht:
 +2 Punkte = Begründung mittels Studie zu ICAP (Menekse et al., 2013) ODER +1 Punkt = Begründung mittels Studie, aber Kontext zu ICAP fehlt
-+1 Punkt = Nennung der Teilnehmeranzahl (TN): 120 TNs
++1 Punkt = Korrekte Nennung der Studienteilnehmerzahl von N=120
 +1 Punkt = Versuchsaufbau/ Versuchsbedingungen: Vier Gruppen zum Thema Chemie mit vier Bedingungen
 +1 Punkt = Ergebnisse: Bestätigung der ICAP-Hypothese, dass Interaktive Lernaktivitäten das höchste Potenzial haben, gefolgt von konstruktiven, gefolgt von aktiven und gefolgt von passiven
 +1 Punkt = 1. Implikation: Lerninhalte sollten nicht einfach nur präsentiert werden

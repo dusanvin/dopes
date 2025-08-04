@@ -8,7 +8,7 @@ def send_prompt_with_retry(client, prompt_text, idx, max_retries=5):
     while refusal_count < max_retries:
         try:
             response = client.responses.create(
-                model="gpt-4o-2024-05-13",
+                model="gpt-4o-2024-11-20",
                 input=[{"role": "user", "content": [{"type": "input_text", "text": prompt_text}]}]
             )
 

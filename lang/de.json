@@ -3,7 +3,7 @@
   "language_prompt": "Geben Sie 'de' für Deutsch oder 'en' für Englisch ein:",
   "invalid_language": "Ungültige Spracheingabe, Standard: Deutsch",
   "select_prompt": "Wählen Sie einen Prompt:",
-  "select_manual": "Wählen Sie ein Manual:",
+  "select_manual": "Wählen Sie ein Bewertungsraster (z.B. mit oder ohne Ankerbeispiele):",
   "enter_number": "Geben Sie eine Zahl von (1-{max}) ein:",
   "invalid_input": "Ungültige Eingabe. Versuchen Sie es erneut."
 }

@@ -3,6 +3,15 @@
 ## Aufgabe:
 Analysiere den folgenden freien Text systematisch mithilfe des beigefügten Bewertungsschemas. Ziel ist es, eine Einschätzung der Qualität auf Grundlage der enthaltenen Argumente und Strukturen vorzunehmen.
 
+## Vorgehensweise (Chain-of-Thought und Few-Shot):
+Gehe bei der Analyse schrittweise vor:
+1. Lies den gesamten Text sorgfältig.
+2. Identifiziere relevante Passagen, die mit dem Bewertungsschema übereinstimmen.
+3. Weise für jeden Code, der bewertet werden kann eine passende Passage zu.
+4. Nutze dabei die drei Ankerbeispiele aus dem Manual explizit als Referenz zur Orientierung und Kalibrierung der Bewertung!
+5. Begründe jede Bewertung mit einem wörtlichen Zitat aus dem Text.
+6. Summiere am Ende alle vergebenen Punkte zur Gesamtpunktzahl.
+
 ## Bewertungsraster:
 {{RASTER}}
 
@@ -31,6 +40,6 @@ z.B. +1 Punkt: Erklärung des ICAP-Modells
 
 Wichtig: Vermeide es, eigene Beispiele oder Erklärungen zu erfinden. Nutze nur direkt zitierte Sätze aus dem Text. Keine Interpretation, keine Ergänzungen.
 
-## Wichtige Hinweise:
+## Hinweise:
 - Verwende ausschließlich relevante Textstellen als Zitate.
 - Die Bewertung ist rein analytisch, ohne rechtliche oder institutionelle Konsequenz.
