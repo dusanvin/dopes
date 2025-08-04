@@ -26,7 +26,7 @@ client = OpenAI(api_key=api_key)
 # Pfade
 DATA_PATH = Path("data/data.xlsx")
 PROMPT_PATH, RASTER_PATH = choose_prompt_and_manual()
-OUTPUT_DIR = Path("responses/zero-shot")
+OUTPUT_DIR = Path("responses")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 AUSWERTUNG_PATH = OUTPUT_DIR / "auswertung.xlsx"
 

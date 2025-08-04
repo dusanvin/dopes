@@ -9,7 +9,8 @@ def send_prompt_with_retry(client, prompt_text, idx, max_retries=5):
         try:
             response = client.responses.create(
                 model="gpt-4o-2024-11-20",
-                input=[{"role": "user", "content": [{"type": "input_text", "text": prompt_text}]}]
+                input=[{"role": "user", "content": [{"type": "input_text", "text": prompt_text}]}],
+                temperature=0
             )
 
             if hasattr(response, "output") and response.output:
