@@ -27,7 +27,7 @@ Codekategorie
 Gesamtpunktzahl: {Summe aller Bewertungen}
 
 z.B. +1 Punkt: Erklärung des ICAP-Modells
-→ „Das ICAP-Modell formuliert Annahmen dazu, in welcher Beziehung äußerlich sichtbare Lernaktivitäten mit unsichtbaren kognitiven (Lern-)Prozessen stehen.“
+→ „Das ICAP-Modell formuliert Annahmen dazu, in welcher Beziehung sichtbare Lernaktivitäten mit kognitiven (Lern-)Prozessen stehen.“
 
 Wichtig: Vermeide es, eigene Beispiele oder Erklärungen zu erfinden. Nutze nur direkt zitierte Sätze aus dem Text. Keine Interpretation, keine Halluzinationen!
 

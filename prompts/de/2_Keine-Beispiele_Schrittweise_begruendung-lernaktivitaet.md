@@ -11,6 +11,22 @@ Gehe bei der Analyse schrittweise vor:
 4. Begründe jede Bewertung mit einem wörtlichen Zitat aus dem Text.
 5. Summiere am Ende alle vergebenen Punkte zur Gesamtpunktzahl.
 
+## Vorgehensweise zur Bewertung (Zero-Shot & Chain-of-Thought)
+1. Lies den gesamten Text sorgfältig.
+2. Identifiziere relevante Passagen, die mit dem Bewertungsschema übereinstimmen.
+3. Für jeden bewertbaren Code führe die folgenden Schritte aus:
+   a) Frage dich explizit:  
+   > *„Wird die geforderte Information wortwörtlich im Text genannt?“*  
+   > Antworte klar mit „Ja“ oder „Nein“.
+   b) Wenn „Ja“:  
+   > Zitiere die entsprechende Passage wörtlich. Begründe also jede Bewertung mit einem wörtlichen Zitat aus dem Text.
+   > Vergib den Punkt laut Kodierschema.
+   c) Wenn „Nein“:  
+   > Vergib keinen Punkt für diesen Code.  
+   > Begründe knapp, warum die Bedingung nicht erfüllt ist.
+4. Wiederhole diesen Prozess für alle Punkte im Bewertungsschema.
+5. Summiere am Ende alle vergebenen Punkte zur Gesamtpunktzahl.
+
 ## Bewertungsraster:
 {{RASTER}}
 
@@ -35,7 +51,7 @@ Codekategorie
 Gesamtpunktzahl: {Summe aller Bewertungen}
 
 z.B. +1 Punkt: Erklärung des ICAP-Modells
-→ „Das ICAP-Modell formuliert Annahmen dazu, in welcher Beziehung äußerlich sichtbare Lernaktivitäten mit unsichtbaren kognitiven (Lern-)Prozessen stehen.“
+→ „Das ICAP-Modell formuliert Annahmen dazu, in welcher Beziehung sichtbare Lernaktivitäten mit kognitiven (Lern-)Prozessen stehen.“
 
 Wichtig: Vermeide es, eigene Beispiele oder Erklärungen zu erfinden. Nutze nur direkt zitierte Sätze aus dem Text. Keine Interpretation, keine Halluzinationen!
 
