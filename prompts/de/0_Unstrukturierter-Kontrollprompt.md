@@ -17,5 +17,5 @@ Codekategorie
 
 Gesamtpunktzahl: {Summe aller Bewertungen}
 
-z.B. +1 Punkt: Erklärung des ICAP-Modells
-→ „Das ICAP-Modell formuliert Annahmen dazu, in welcher Beziehung sichtbare Lernaktivitäten mit kognitiven (Lern-)Prozessen stehen.“
+z.B. +1 Punkt: Das ist ein bestimmter Code
+→ „Lorem ipsum dolor sit amet.“
