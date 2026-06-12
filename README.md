@@ -5,7 +5,7 @@
 A collection of reusable, well-documented prompts for ChatGPT, designed to evaluate text-based solutions. Depending on the language and the prompt design, a distinction is made between German and English as well as 
 - Zero-shot learning (ZSL)
 - Few-shot Learning (FSL)
-- ZSL with Chain-of-Thougt(CoT) prompting and
+- ZSL with Chain-of-Thougt(CoT) and
 - FSL with CoT prompting
 
 The project DoPES **evaluates essays or texts** with a **grid** and a given **prompt** automatically by sending a call via a ChatGPT-API. 
