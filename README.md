@@ -1,9 +1,7 @@
 # DoPES
 **D**ifferent Types **o**f **P**rompts (Zero-shot Learning, Few-shot Learning and Chain-of-Thought prompting) for Automated **E**ssay **S**coring.
 
-![](https://github.com/dusanvin/dopes/blob/main/image.png)
-
-## Deutsch
+## Informationen
 Ein Python-Skript, um textbasierte Lösungen mit verschiedenen Arten von Prompts automatisiert zu evaluieren. Je nach Sprache und Prompt-Design wird zwischen Deutsch und Englisch sowie 
 - Lernen ohne Beispiele (engl., Zero-shot learning, ZSL)
 - Lernen mit wenigen Beispielen (engl., Few-shot Learning, FSL)
@@ -11,6 +9,8 @@ Ein Python-Skript, um textbasierte Lösungen mit verschiedenen Arten von Prompts
 - FSL with CoT
 
 unterschieden.
+
+![](https://github.com/dusanvin/dopes/blob/main/image.png)
 
 ### Verwendung
 1. Ändere den API-Key in der ```.env.example```. Benenne die Datei in ```.env``` um.
