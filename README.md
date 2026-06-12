@@ -1,77 +1,23 @@
 # DoPES
 **D**ifferent Types **o**f **P**rompts (Zero-shot Learning, Few-shot Learning and Chain-of-Thought prompting) for Automated **E**ssay **S**coring.
 
-## English
-A collection of reusable, well-documented prompts for ChatGPT, designed to evaluate text-based solutions. Depending on the language and the prompt design, a distinction is made between German and English as well as 
-- Zero-shot learning (ZSL)
-- Few-shot Learning (FSL)
-- ZSL with Chain-of-Thougt(CoT) and
-- FSL with CoT prompting
-
-The project DoPES **evaluates essays or texts** with a **grid** and a given **prompt** automatically by sending a call via a ChatGPT-API. 
-
 ![](https://github.com/dusanvin/dopes/blob/main/image.png)
 
-## How to Use
-1. Change the API-Key in the ```.env.example```. Rename the file to ```.env```
-2. Convert your grid for evaluating qualitative data (depending on your shot) to ```manual.pdf``` (Base64-encoded form). Place it under ```manuals/```
-3. Customize your prompt in ```prompts/(1)zsl+du.md```
-4. Place your ```data.xlsx``` which should be evaluated into ```data/```
-5. Move to your project folder. Install the needed modules via pip: ```pip install python-dotenv openai pandas tqdm openpyxl```
-6. Run the program via: ```python run_prompts.py```
-7. Happy scripting!
+## Deutsch
+Ein Python-Skript, um textbasierte Lösungen mit verschiedenen Arten von Prompts automatisiert zu evaluieren. Je nach Sprache und Prompt-Design wird zwischen Deutsch und Englisch sowie 
+- Lernen ohne Beispiele (engl., Zero-shot learning, ZSL)
+- Lernen mit wenigen Beispielen (engl., Few-shot Learning, FSL)
+- ZSL mit strukturiertem Denken (engl., Chain-of-Thougt, CoT) und
+- FSL with CoT
 
-### Structure
-<details>
-  <summary>Click to show content</summary>
-    <br>
+unterschieden.
 
-```text
-dopes/
-├── README.md
-├── .env.example
-├── run_prompts.py
-├── data/
-│   ├── data.xlsx
-├── manuals/
-│   ├── zero-shot.pdf
-│   ├── few-shot.pdf
-│   ├── chain-of-thought.pdf
-├── prompts/
-│   ├── en/
-│   │   ├── zero-shot/
-│   │   │   ├── 01_test.md
-│   │   │   ├── 02_test.md
-│   │   ├── few-shot/
-│   │   │   ├── 01_test.md
-│   │   │   ├── 02_test.md
-│   │   ├── chain-of-thought/
-│   │       ├── 01_test.md
-│   │       ├── 02_test.md
-│   ├── de/
-│   │   ├── zero-shot/
-│   │   │   ├── (1)zsl+du.md
-│   │   │   ├── 02_test.md
-│   │   ├── few-shot/
-│   │   │   ├── 01_test.md
-│   │   │   ├── 02_test.md
-│   │   ├── chain-of-thought/
-│   │       ├── 01_test.md
-│   │       ├── 02_test.md
-├── responses/
-│   ├── zero-shot/
-│   │   ├── 1.md
-│   │   ├── 2.md
-│   ├── few-shot/
-│   │   ├── 1.md
-│   │   ├── 2.md
-│   ├── chain-of-thought/
-│   │   ├── 1.md
-│   │   ├── 2.md
-└── tags.json
-```
-
-</details>
+### Verwendung
+1. Ändere den API-Key in der ```.env.example```. Benenne die Datei in ```.env``` um.
+2. Konvertiere das Bewertungsraster zur Bewertung von textbasierten Antworten (in Abhängigkeit deines Prompts) zu ```manual.pdf``` (Base64-kodiert). Füge es unter ```manuals/``` ein.
+3. Passe deinen Prompt unter ```prompts/(1)zsl+du.md``` an.
+4. Füge deine ```data.xlsx``` (mit den zu bewertenden textbasierten Antworten) in ```data/``` ein.
+5. Gehe in deinen Projektordner. Starte das Programm mit folgendem Aufruf: ```python run_prompts.py```
 
 ### Prompts
 <details>
@@ -112,22 +58,6 @@ Prompts were structured using the following guidelines:
 ... is an metadata file that helps describe and organize the prompts programmatically.
 
 </details>
-
-## Deutsch
-Ein Python-Skript, um textbasierte Lösungen mit verschiedenen Arten von Prompts automatisiert zu evaluieren. Je nach Sprache und Prompt-Design wird zwischen Deutsch und Englisch sowie 
-- Lernen ohne Beispiele (engl., Zero-shot learning, ZSL)
-- Lernen mit wenigen Beispielen (engl., Few-shot Learning, FSL)
-- ZSL mit strukturiertem Denken (engl., Chain-of-Thougt, CoT) und
-- FSL with CoT
-
-unterschieden.
-
-### Verwendung
-1. Ändere den API-Key in der ```.env.example```. Benenne die Datei in ```.env``` um.
-2. Konvertiere das Bewertungsraster zur Bewertung von textbasierten Antworten (in Abhängigkeit deines Prompts) zu ```manual.pdf``` (Base64-kodiert). Füge es unter ```manuals/``` ein.
-3. Passe deinen Prompt unter ```prompts/(1)zsl+du.md``` an.
-4. Füge deine ```data.xlsx``` (mit den zu bewertenden textbasierten Antworten) in ```data/``` ein.
-5. Gehe in deinen Projektordner. Starte das Programm mit folgendem Aufruf: ```python run_prompts.py```
 
 ### Projektstruktur
 <details>
