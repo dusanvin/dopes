@@ -4,7 +4,7 @@
 Analysiere den folgenden freien Text systematisch mithilfe des beigefügten Bewertungsschemas. Ziel ist es, eine Einschätzung der Qualität auf Grundlage der enthaltenen Argumente und Strukturen vorzunehmen.
 
 ## Vorgehensweise (Few-Shot):
-Nutze dabei die drei Ankerbeispiele aus dem Manual explizit als Referenz zur Orientierung und Kalibrierung der Bewertung!
+Nutze dabei die Ankerbeispiele aus dem Manual explizit als Referenz zur Orientierung und Kalibrierung der Bewertung!
 
 ## Bewertungsraster:
 {{RASTER}}
