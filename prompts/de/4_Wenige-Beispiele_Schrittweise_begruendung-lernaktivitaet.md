@@ -8,10 +8,11 @@ Gehe bei der Analyse schrittweise vor:
 1. Lies den gesamten Text sorgfältig.
 2. Identifiziere relevante Passagen, die mit dem Bewertungsschema übereinstimmen.
 3. Weise für jeden Code, der bewertet werden kann eine passende Passage zu.
-4. Nutze dabei die drei Ankerbeispiele aus dem Manual explizit als Referenz zur Orientierung und Kalibrierung der Bewertung!
+4. Nutze dabei die Ankerbeispiele aus dem Manual explizit als Referenz zur Orientierung und Kalibrierung der Bewertung!
 5. Begründe jede Bewertung mit einem wörtlichen Zitat aus dem Text.
 6. Summiere am Ende alle vergebenen Punkte zur Gesamtpunktzahl.
 
+## Vorgehensweise zur Bewertung (Few-Shot & Chain-of-Thought):
 1. Lies den gesamten Text sorgfältig.
 2. Identifiziere relevante Passagen, die mit dem Bewertungsschema übereinstimmen.
 3. Für jeden bewertbaren Code führe die folgenden Schritte aus:
